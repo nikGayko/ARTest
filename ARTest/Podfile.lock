@@ -1,0 +1,45 @@
+PODS:
+  - ARCore/AugmentedFaces (1.23.0):
+    - ARCore/Base (~> 1.23)
+    - nanopb (~> 2.30906.0)
+  - ARCore/Base (1.23.0):
+    - GoogleDataTransport (~> 8.0)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - GTMSessionFetcher/Core (~> 1.2)
+    - nanopb (~> 2.30906.0)
+  - GoogleDataTransport (8.1.0):
+    - nanopb (~> 2.30906.0)
+  - GoogleToolboxForMac/Defines (2.3.1)
+  - GoogleToolboxForMac/Logger (2.3.1):
+    - GoogleToolboxForMac/Defines (= 2.3.1)
+  - "GoogleToolboxForMac/NSData+zlib (2.3.1)":
+    - GoogleToolboxForMac/Defines (= 2.3.1)
+  - GTMSessionFetcher/Core (1.5.0)
+  - nanopb (2.30906.0):
+    - nanopb/decode (= 2.30906.0)
+    - nanopb/encode (= 2.30906.0)
+  - nanopb/decode (2.30906.0)
+  - nanopb/encode (2.30906.0)
+
+DEPENDENCIES:
+  - ARCore/AugmentedFaces (~> 1.23.0)
+
+SPEC REPOS:
+  trunk:
+    - ARCore
+    - GoogleDataTransport
+    - GoogleToolboxForMac
+    - GTMSessionFetcher
+    - nanopb
+
+SPEC CHECKSUMS:
+  ARCore: ec65b490c2a7bd5a95ae7406d5f6d3308c9c13f3
+  GoogleDataTransport: 116c84c4bdeb76be2a7a46de51244368f9794eab
+  GoogleToolboxForMac: 471e0c05d39506e50e6398f46fa9a12ae0efeff9
+  GTMSessionFetcher: b3503b20a988c4e20cc189aa798fd18220133f52
+  nanopb: 1bf24dd71191072e120b83dd02d08f3da0d65e53
+
+PODFILE CHECKSUM: d3594e2bc7c88496d44ddd71d17e643065b787e8
+
+COCOAPODS: 1.11.3

@@ -1,0 +1,9 @@
+/* 
+  Localization.strings
+  ARTest
+
+  Created by Mikita Haiko on 4/8/21.
+  Copyright © 2021 Mikita Haiko. All rights reserved.
+*/
+
+NSCameraUsageDescription = "Russian";
